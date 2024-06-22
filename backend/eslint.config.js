@@ -7,7 +7,7 @@ export default [
     pluginJs.configs.recommended,
 
     {
-        files: ["**/*.js"],
+        files: ["src/**/*.js"],
         rules: {
             'camelcase': 'error',              // Enforce camelCase naming
             'semi': ['error', 'never'],        // Disallow semicolons
